@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Rental form</title>
+	<style type="text/css">
+		
+ form{border: 1px solid black;
+     border: 1px solid black;
+    padding: 1.5%;
+    padding-top: 0.5%;
+    margin-left: 30% ;
+    position: absolute;
+}
+body{
+background-image: url("img/bg5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+	</style>
+
+
+
+</head>
+
+<body>
+	<div class="container">
+
+		
+ <form>
+ 	
+ 	<h1>Rental Car Form </h1>
+    Customer Name: <input type="textbox" name="" placeholder="Enter Name"><br><br>
+    Address: <input type="text" name="" placeholder="Enter Address"><br><br>
+    Contact No: <input type="textbox" name="" placeholder="Enter contact no"><br><br>
+    Age: <input type="textbox" name="" placeholder="Enter age"><br><br>
+    Driving Licence: <input type="file" name=""><br><br>
+    ID Proof: <input type="file" name=""><br><br>
+    From date: <input type="date" name=""><br><br>
+    To date: <input type="date" name=""><br><br>
+    Location: <input type="textbox" name="" placeholder="Enter location"><br><br>
+    Amount: 20,000<br><br>
+    <input type = "button" class="btn btn-success" value = "Rent & Pay" onclick = "getConfirm();" />
+
+ </form>
+
+</div>
+<script type="text/javascript">
+   function getConfirm() {
+               var rent = confirm(" Rent & Payment Successfully Done");
+               
+            }
+</script>
+</body>
+</html>

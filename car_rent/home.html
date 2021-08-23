@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+  body {
+    position: relative;
+    background-color: #f1f1f1; 
+  }
+  #section1 {padding-top: 50px; height:1200px;}
+  #section2 {padding-top: 50px;}
+  #section3 {padding-top: 50px;}
+  #section41 {padding-top: 50px;}
+  #section42 {padding-top: 50px;}
+.footer {
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   
+}
+h1.f1{
+  font-size: 75px;
+}
+.but1 {font-size: 24px; 
+    width:200px;
+    position: absolute;
+  top: 100%;
+  left: 35%;
+  }
+
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+
+      <a class="navbar-brand" href="#"><img src="img/logo1.png"></a>
+      <a class="navbar-brand">R-Cars</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section3">Contact Us</a></li>
+          
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Home</h1>
+  
+
+     
+
+
+<img src="img/bg22.jpg" style="width:100%; opacity:0.6">
+<div class="centered"><h1 class="f1"><b>Book Your Rental Car Now!!</b></h1><br>
+<button class="btn btn-danger but1" onclick="document.location='rental_car.html'">Book Now</button></div>
+
+
+</div>
+
+
+
+
+  </div>
+
+<div id="section2" class="container-fluid">
+  <h1>About Us</h1>
+  
+  <div class="row">
+  <div class="col-sm-3"><img src="img/thumb.png"><br><br><h4>Satisfied Customer</h4></div>
+  <div class="col-sm-3"><img src="img/note1.png"><br><br><h4> Easier & Faster Booking</h4></div>
+  <div class="col-sm-3"><img src="img/location5.png"><br><br><h4>Showroom Location</h4></div>
+  <div class="col-sm-3"><img src="img/car2.png"><br><h4>&ensp;&ensp;900+</h4><h4>cars for rent</h4></div>
+</div>
+<h2>Customer Services</h2>
+<ul>
+  <li><h4>Trusted Rent Service</h4></li>
+  <li><h4>24/7 Free Customer Service</h4></li>
+  <li><h4>Reservation Anytime</h4></li>
+  <li><h4>Special rates on car booking</h4></li>
+
+</ul>
+  
+ 
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Contact Us</h1>
+<form>
+  <fieldset>
+    <legend>Do you have any query or need additional information</legend>
+    First name:<input type="text" name="" placeholder="First Name"><br><br>
+    Last name:<input type="text" name="" placeholder="Last Name" ><br><br>
+    Email:<input type="text" name="" placeholder="Email" ><br><br>
+    Message:<textarea placeholder="Type your query here" ></textarea><br><br>
+    <input type="submit" class="btn btn-danger" value="Send Message" onclick = "getMsg();">
+  </fieldset>
+</form>
+</div>
+<div id="section41" class="container-fluid">
+  <!--Add Section-->
+</div>
+
+<!--footer-->
+<div class="footer">
+  <p>copyright<img src="img/copy8.png"></p>
+  <p><h3>Follow us on </h3> <img src="img/google1.png">&emsp;&emsp;<img src="img/facebook1.png">&emsp;&emsp;<img src="img/insta2.png">&emsp;&emsp;<img src="img/twitter1.png">&emsp;&emsp;<img src="img/yt1.png"></p>
+</div>
+<!-- Footer -->
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="car.js"></script>
+</body>
+</html>

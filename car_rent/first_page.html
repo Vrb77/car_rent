@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Welcome</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		
+		form.fo{border: 3px solid black;
+     border: 3px solid black;
+    padding: 2%;
+    padding-top: 1.5%;
+    margin-left: 30% ;
+    margin-top: 2%;
+    position: absolute;
+    background-color: white;
+    color: black;
+  
+    font-size:18px;
+}   
+.btn{
+   text-align: center;
+    width:150px;
+}
+body{
+	background-image: url("img/bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p.exa1 {
+  
+  padding-top: 45%;
+  padding-left: 46%;
+}
+
+
+	</style>
+</head>
+<body>
+
+ 
+ <div class="form-popup" id="myForm">
+  <div class="container">
+  	<h1 align="center"><b>&emsp;Welocome to Rental Cars <img src="img/logo1.png" height="40px" ></b></h1>
+<form class="fo">
+  
+    
+        
+        
+
+   <h4> Email/Username:</h4> <input type="text" name="" placeholder="Enter Email" ><br><br>
+   
+    <h4>Password:</h4><input type="password" name="" placeholder="Enter Password" ><br><br>
+    <input type="checkbox" name="">Remember Me<br>
+  <!-- <button type="submit" class="btn btn-danger"  >Login</button>-->
+  &emsp;&emsp;<input type = "button" class="btn btn-danger" value = "Log In" onclick = "getConfirmation();" /><br>
+     
+
+   <br>
+    
+    <a href="">Forget Password</a><br>
+    New User?<br>&emsp;&emsp;<button type="button" class="btn btn-success" id="myBtn">Sign Up</button>
+          <!--Model login-->
+     <div id="myModal" class="modal">
+       <!--Model content-->
+      <div class="modal-content">
+        
+        <p>Name:<input type="text" name="" placeholder="Enter Your Full Name" required><span class="close">&times;</span><br><br>
+          Email:<input type="Email" placeholder="Enter Email" name="" required><br><br>
+         Contact No <input type="text" name="" required><br><br>
+         Password <input type="password" name="" required><br><br>
+         <button type="submit" class="btn btn-danger" >Sign Up</button></p>
+      </div>
+
+    </div>
+
+
+
+
+    
+
+</form>
+
+   <p class="exa1"> <button class="btn btn-primary" onclick="document.location='home.html'">Go to the website</button></p>
+</div>
+
+</div>
+
+
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="car.js"></script>
+</body>
+</html>
